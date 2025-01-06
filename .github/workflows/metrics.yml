@@ -23,12 +23,19 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
 
+          repositories_skipped:
+            - "Drewniok/thesis"
+
           plugin_lines: yes
           plugin_lines_delay: 30
           plugin_lines_sections: repositories, history
+
+          repositories_affiliations: ""
 
           plugin_notable_from: organization
           plugin_notable_types: commit
 
           plugin_traffic: yes
+
+
 
