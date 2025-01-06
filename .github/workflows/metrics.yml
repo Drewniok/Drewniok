@@ -20,12 +20,14 @@ jobs:
           # Options
           user: Drewniok
           template: classic
-          base: header, activity, community,  metadata
+          base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
+
+          plugin_lines: yes
+          plugin_lines_delay: 30
 
           plugin_notable_from: organization
           plugin_notable_types: commit
 
           plugin_traffic: yes
 
-          plugin_lines: yes
