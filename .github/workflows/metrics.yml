@@ -18,13 +18,13 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: Drewniok
+          user: jan.drewniok.research@gmail.com
           template: classic
           base: header, community, repositories, metadata, activity
           config_timezone: Europe/Berlin
 
           repositories: 1000
-          commits_authoring: Drewniok
+          commits_authoring: jan.drewniok.research@gmail.com
 
           base_indepth: yes
 
