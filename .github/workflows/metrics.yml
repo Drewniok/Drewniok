@@ -26,9 +26,11 @@ jobs:
           repositories_skipped: |
             Drewniok/thesis
 
+          commits_authoring: Drewniok
+
           plugin_lines: yes
           plugin_lines_delay: 30
-          plugin_lines_sections: repositories, history
+          plugin_lines_sections: repositories
 
           repositories_affiliations: ""
 
@@ -36,6 +38,3 @@ jobs:
           plugin_notable_types: commit
 
           plugin_traffic: yes
-
-
-
