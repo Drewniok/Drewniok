@@ -22,6 +22,8 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
+          scopes:
+            - public_access
 
           repositories_skipped: |
             Drewniok/thesis
