@@ -23,6 +23,8 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
 
+          base_indepth: yes
+
           repositories_skipped: |
             Drewniok/thesis
 
