@@ -37,4 +37,7 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
 
+          plugin_topics: yes
+          plugin_topics_mode: labels
+
 
