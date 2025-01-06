@@ -23,6 +23,9 @@ jobs:
           base: header, activity, community,  metadata
           config_timezone: Europe/Berlin
 
+          plugin_notable_from: organization
+          plugin_notable_types: commit
+
           plugin_traffic: yes
 
           plugin_lines: yes
