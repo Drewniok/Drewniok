@@ -20,7 +20,7 @@ jobs:
           # Options
           user: Drewniok
           template: classic
-          base: header, community, repositories, metadata
+          base: header, community, repositories, metadata, activity
           config_timezone: Europe/Berlin
 
           base_indepth: yes
@@ -33,11 +33,11 @@ jobs:
           # Restrict to public repositories only
           repositories_affiliations: "owner, collaborator"
 
+          plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
-
-          plugin_traffic: yes
-
-          plugin_notable: yes
           plugin_notable_indepth: yes
           plugin_notable_repositories: yes
+          plugin_notable_repositories_limit: 3
+          plugin_notable_repositories_forks: exclude
+          plugin_notable_: exclude
