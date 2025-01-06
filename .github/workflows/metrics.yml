@@ -23,8 +23,8 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
 
-          repositories_skipped:
-            - "Drewniok/thesis"
+          repositories_skipped: |
+            Drewniok/thesis
 
           plugin_lines: yes
           plugin_lines_delay: 30
