@@ -38,4 +38,3 @@ jobs:
           plugin_notable_repositories: yes
           plugin_notable_repositories_limit: 3
           plugin_notable_repositories_forks: exclude
-          plugin_notable_: exclude
