@@ -23,7 +23,7 @@ jobs:
           base: header, community, repositories, metadata, activity
           config_timezone: Europe/Berlin
 
-          repositories: 1000
+          #repositories: 1000
           commits_authoring: jan.drewniok.research@gmail.com
 
           base_indepth: yes
