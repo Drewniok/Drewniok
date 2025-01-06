@@ -20,7 +20,7 @@ jobs:
           # Options
           user: Drewniok
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, community, repositories, metadata
           config_timezone: Europe/Berlin
 
           base_indepth: yes
@@ -29,10 +29,6 @@ jobs:
             Drewniok/thesis
 
           commits_authoring: Drewniok
-
-          plugin_lines: yes
-          plugin_lines_delay: 30
-          plugin_lines_sections: repositories
 
           # Restrict to public repositories only
           repositories_affiliations: "owner, collaborator"
