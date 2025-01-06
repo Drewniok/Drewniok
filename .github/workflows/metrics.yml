@@ -23,6 +23,9 @@ jobs:
           base: header, community, repositories, metadata, activity
           config_timezone: Europe/Berlin
 
+          repositories: 1000
+          commits_authoring: Drewniok
+
           base_indepth: yes
 
           repositories_skipped: |
