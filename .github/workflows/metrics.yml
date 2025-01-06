@@ -39,5 +39,5 @@ jobs:
 
           plugin_lines: yes
 
-          plugin_lines_sections: base
+          plugin_lines_sections: repositories
 
