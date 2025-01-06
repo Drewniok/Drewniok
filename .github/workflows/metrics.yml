@@ -28,8 +28,6 @@ jobs:
           repositories_skipped: |
             Drewniok/thesis
 
-          commits_authoring: Drewniok
-
           # Restrict to public repositories only
           repositories_affiliations: "owner, collaborator"
 
