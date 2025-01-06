@@ -24,7 +24,7 @@ jobs:
           config_timezone: Europe/Berlin
 
           #repositories: 1000
-          commits_authoring: jan.drewniok.research@gmail.com
+          commits_authoring: Drewniok
 
           base_indepth: yes
 
@@ -37,7 +37,4 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
 
-          plugin_lines: yes
-
-          plugin_lines_sections: repositories
 
