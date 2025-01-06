@@ -25,6 +25,7 @@ jobs:
 
           plugin_lines: yes
           plugin_lines_delay: 30
+          plugin_lines_sections: repositories, history
 
           plugin_notable_from: organization
           plugin_notable_types: commit
