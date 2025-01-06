@@ -35,11 +35,10 @@ jobs:
           repositories_affiliations: "owner, collaborator"
 
           plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_indepth: yes
-          plugin_notable_types: pull_request
+          #plugin_notable_from: organization
+          #plugin_notable_indepth: yes
+          #plugin_notable_types: pull_request
 
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_limit: 3
-
+          #plugin_achievements: yes
+          #plugin_achievements_display: detailed
+          #plugin_achievements_limit: 3
