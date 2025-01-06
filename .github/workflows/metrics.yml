@@ -1,8 +1,4 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
-
-scopes:
-  - public_access
 
 on:
   # Schedule updates (each hour)
@@ -18,7 +14,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
+          # Your GitHub token (with public_repo scope)
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -26,7 +22,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
-
 
           repositories_skipped: |
             Drewniok/thesis
@@ -37,9 +32,8 @@ jobs:
           plugin_lines_delay: 30
           plugin_lines_sections: repositories
 
-
-
-          repositories_affiliations: ""
+          # Restrict to public repositories only
+          repositories_affiliations: "owner, collaborator"
 
           plugin_notable_from: organization
           plugin_notable_types: commit
